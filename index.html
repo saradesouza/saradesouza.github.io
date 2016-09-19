@@ -1,23 +1,141 @@
----
-layout: default
----
+<!DOCTYPE html>
 
-<div class="home">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://ogp.me/ns/fb#">
 
-  <h1 class="page-heading">Posts Test</h1>
+<head>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+	<link rel="icon" 
+      type="image/png" 
+      href="http://www.saradesouza.com/assets/favicon.png">
+	  
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta property="og:image" content="assets/header.png" />
+	<title>Sara de Souza's Portfolio</title>
+	
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+	<link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" media="screen and (min-width: 101px) and (max-width: 800px)" href="style-mobile.css" />
+	<link rel="stylesheet" media="screen and (min-width: 801px) and (max-width: 2000px)" href="style.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	
+	<script>
+	window.fadeIn = function(obj) {
+    $(obj).fadeIn(1000);
+	}
+	</script>
 
-</div>
+</head>
+
+<body>
+
+		<div id="bgright">&nbsp;</div>
+		
+		<div id="bgleft">&nbsp;</div>
+
+	<div id="pagewrap">
+	
+		<div id="container">
+			<div id="header">
+				<h1><a href="index.html">Sara de Souza's portfolio</a></h1>
+			</div>
+			
+			<div id="portfolio">
+				
+				<div id="gallery1">
+					<div id="gal1c1">
+						<a href="portfolio/business-card.html"><img onload="fadeIn(this)" src="assets/thumbs/thumb-businesscard.jpg" class="animated" width="319" height="175"></a>
+						<h3>Sara de Souza Identity 2015</h3>
+						<h6>Graphic Design, Web Design, Identity</h6>
+					</div>			
+				
+					<div id="gal1c2">
+						<a href="portfolio/geminids.html"><img onload="fadeIn(this)" src="assets/thumbs/thumb-geminids.jpg" class="animated" width="319" height="175"></a>
+						<h3>Geminids Meteor Shower Infographic</h3>
+						<h6>Graphic Design, Inforgraphic</h6>
+					</div>			
+				
+					<div id="gal1c3">
+						<a href="portfolio/mtvid.html"><img onload="fadeIn(this)" src="assets/thumbs/thumb-mtvid.jpg" class="animated" width="319" height="175"></a>
+						<h3>MTV - Dream</h3>
+						<h6>Video, Motion Graphics, Animation</h6>
+					</div>
+				</div>
+				
+				<div id="gallerydivider"></div>
+				
+				<div id="gallery1">
+					<div id="gal1c1">
+						<a href="portfolio/roger-vs-aliens.html"><img onload="fadeIn(this)" src="assets/thumbs/thumb-rvsa.jpg" class="animated" width="319" height="175"></a>
+						<h3>Roger vs Aliens</h3>
+						<h6>Game Design, Mobile, App</h6>
+					</div>			
+				
+					<div id="gal1c2">
+						<a href="portfolio/hanging-gardens.html"><img onload="fadeIn(this)" src="assets/thumbs/thumb-hanginggardens.jpg" class="animated" width="319" height="175"></a>
+						<h3>Hanging Gardens at Dusk</h3>
+						<h6>Illustration, Digital Painting</h6>
+					</div>			
+				
+					<div id="gal1c3">
+						<a href="portfolio/doodlettesara.html"><img onload="fadeIn(this)" src="assets/thumbs/thumb-doodlettesara.jpg" class="animated" width="319" height="175"></a>
+						<h3>Doodlette Sara</h3>
+						<h6>Illustration</h6>
+					</div>
+					
+					<div id="gallerydivider"></div>
+					
+				<div id="gallery1">
+					<div id="gal1c1">
+						<a href="portfolio/photo-x-typography.html"><img onload="fadeIn(this)" src="assets/thumbs/thumb-photo-x-typography.jpg" class="animated" width="319" height="175"></a>
+						<h3>Photo X Typography Series</h3>
+						<h6>Graphic Design, Typography</h6>
+					</div>			
+				
+					<div id="gal1c2">
+						<a href="portfolio/round-rice-ball.html"><img onload="fadeIn(this)" src="assets/thumbs/thumb-roundriceball.jpg" class="animated" width="319" height="175"></a>
+						<h3>Round Riceball</h3>
+						<h6>Illustration, Comic</h6>
+					</div>			
+				
+					<div id="gal1c3">
+						<img onload="fadeIn(this)" src="assets/thumbs/thumb-comingsoon.png" class="animated" width="319" height="175">
+						<h3></h3>
+						<h6></h6>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+			
+			<div id="divider">
+			</div>
+			
+			<div id="footer">
+				<h2> About Me</h2>
+				<h6>Multimedia and Graphic designer<br>Selangor, Malaysia<br>Rabbit year, water goat month</h6>
+				<br>
+				<h4>Follow me!</h4>
+				<a href="https://www.behance.net/saradesouza" target="_blank"><img src="assets/socialmedia/behance.png"></a>
+				<a href="https://vimeo.com/saradesouza" target="_blank"><img src="assets/socialmedia/vimeo.png"></a>
+				<a href="https://my.linkedin.com/pub/sara-adam-de-souza/27/11a/56" target="_blank"><img src="assets/socialmedia/linkedin.png"></a>
+				<a href="mailto:saradesouza87@gmail.com"><img src="assets/socialmedia/email.png"></a>
+				<br>
+				<br>
+				<br>
+				<p>Designed and developed by Sara de Souza &copy; 2015</p>
+			</div>
+		</div>
+		
+
+		
+	
+	</div>
+
+</body>
+
+
+</html>

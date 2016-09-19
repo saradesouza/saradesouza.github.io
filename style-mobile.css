@@ -1,0 +1,256 @@
+/*CSS Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+b {
+font-weight: bold;
+}
+
+p {
+line-height: 1.3;
+}
+	
+a {
+	color: #39bcff;
+	font-family: "Karla", "Arial", sans-serif;
+	padding-bottom: 10px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #2d9bd3;
+}
+
+
+h1 {	
+	height: 331px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background: url("assets/header.png") 0 0 no-repeat;
+	background-size: contain;
+	}
+	
+	
+h2 {
+	color: #39bcff;
+	font-family: "Fredoka One", "Arial", sans-serif;
+	font-size: 2em;
+	padding-bottom: 10px;
+	}
+	
+h3 {
+	color: #39bcff;
+	font-family: "Fredoka One", "Arial", sans-serif;
+	}
+	
+h4 {
+	color: #39bcff;
+	font-family: "Fredoka One", "Arial", sans-serif;
+	padding-bottom: 10px;
+
+	}
+	
+#footer h6 {
+	line-height: 140%;
+}
+	
+h6 {
+	font-family: "Karla", "Arial", sans-serif;
+	font-size: 0.7em;
+}
+	
+p {
+	font-family: "Karla", "Arial", sans-serif;
+	font-size: 0.7em;
+}
+
+body {
+	background-image: url("assets/bg-tile.jpg");
+	margin: 0;
+	padding: 0;
+}
+
+
+#header {
+	width: 331px;
+	margin: 0 auto;
+}
+
+#pagewrap {
+	width: 100%;
+	height: 100%;
+}
+	
+#container {
+	margin: 0px auto;
+	background-color: none;
+}
+
+#gallerydivider {
+width: 100%;
+display: block;
+}
+
+#portfolio {
+	margin: 0 auto;
+}
+
+#portfolio img {
+border: 5px solid #e1edf2;
+}
+
+#portfolio img:hover {
+border: 5px solid #c7dee7;
+}
+
+#portfolioindividual img {
+border: 5px solid #e1edf2;
+}
+
+#gallery1 {
+padding: 0px;
+width: 100%;
+text-align:center;
+margin: 0 auto;
+}
+
+#gal1c1 {
+margin-bottom: 20px;
+}
+
+#gal1c2 {
+margin-bottom: 20px;
+}
+
+#gal1c3 {
+margin-bottom: 20px;
+}
+
+
+#spacer {
+height: 100px;
+display: block;
+}
+
+#dividerportfoliobottom {
+display: block;
+text-align: center;
+}
+
+#dividerportfoliobottom img{
+width:90%;
+height:1px;
+max-width: 600px;
+}
+
+#dividerportfolio {
+height: 50px;
+}
+
+#footer {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: none;
+	padding-bottom:100px;
+	float: left;
+}
+
+#bgright {
+	float: right;
+	height: 400px;
+	width: 100%;
+	background-image: url("assets/bg-right-small.png");
+	background-repeat: no-repeat;
+    background-position: right top;
+	position: absolute;
+	z-index: -1;
+	min-width: 300px;
+	}
+	
+#portfolioindividual {
+
+}
+	
+#portfoliocanvas {
+text-align: center;
+}
+
+#portfoliocanvas img {
+width:90%;
+height:auto;
+max-width: 600px;
+
+}
+
+#portfoliodescription {
+margin: 0 auto;
+padding-bottom: 50px;
+text-align: center;
+width: 90%;
+overflow-x: hidden;
+}
+
+
+.responsive-video {
+position: relative;
+padding-bottom: 56.25%; /* 16/9 ratio */
+padding-top: 30px; /* IE6 workaround*/
+height: 0;
+overflow: hidden;
+}
+
+
+.responsive-video iframe,
+.responsive-video object,
+.responsive-video embed,
+.responsive-video p {
+position: absolute;
+left: 30px;
+top: 0;
+width: 90%;
+height: 90%;
+}

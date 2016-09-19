@@ -69,7 +69,7 @@ h1 {
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
-	background: url("assets/header.png") 0 0 no-repeat;
+	background: url("../assets/header.png") 0 0 no-repeat;
 	}
 	
 	
@@ -107,7 +107,7 @@ p {
 }
 
 body {
-	background-image: url("assets/bg-tile.jpg");
+	background-image: url("../assets/bg-tile.jpg");
 	margin: 0;
 	padding: 0;
 }
@@ -219,7 +219,7 @@ text-align: center;
 	float: right;
 	width: 100%;
 	height: 800px;
-	background-image: url("assets/bg-right.png");
+	background-image: url("../assets/bg-right.png");
 	background-repeat: no-repeat;
     background-position: right top;
 	position: absolute;

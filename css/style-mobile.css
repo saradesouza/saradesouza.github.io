@@ -108,7 +108,7 @@ p {
 }
 
 body {
-	background-image: url("assets/bg-tile.jpg");
+	background-image: url("../assets/bg-tile.jpg");
 	margin: 0;
 	padding: 0;
 }
@@ -203,7 +203,7 @@ height: 50px;
 	float: right;
 	height: 400px;
 	width: 100%;
-	background-image: url("assets/bg-right-small.png");
+	background-image: url("../assets/bg-right-small.png");
 	background-repeat: no-repeat;
     background-position: right top;
 	position: absolute;

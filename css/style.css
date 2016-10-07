@@ -43,12 +43,16 @@ table {
 	border-spacing: 0;
 }
 
+* {
+	box-sizing: border-box
+}
+
 b {
-font-weight: bold;
+	font-weight: bold;
 }
 
 p {
-line-height: 1.3;
+	line-height: 1.3;
 }
 	
 a {
@@ -113,6 +117,97 @@ body {
 	padding: 0;
 }
 
+/*flex*/
+
+.flex-container {
+	display: flex; /* or inline-flex */
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+
+.entry {
+	min-width: 280px;  /* Or whatever */
+  	height: 280px; /* Or whatever */
+  	margin: auto;  /* Magic! */
+  	text-align: center;
+  	flex-basis: 400px;
+}
+
+.thumb {
+	width: 95%;
+	height: 200px;
+	background-color: #AAA;
+	margin: 0 auto;
+	border: 5px solid #e1edf2;
+	-webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.thumb:hover {
+	border: 5px solid #a6cbdb;
+
+}
+
+.entry-title {
+	color: #39bcff;
+    font-family: "Fredoka One", "Arial", sans-serif;
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.entry-subtitle {
+	font-family: "Karla", "Arial", sans-serif;
+    font-size: 14px;
+    color: #666;
+}
+
+/*THUMBNAILS*/
+#thumb-businesscard {
+	background-image: url("../assets/thumbs/thumb-businesscard.jpg");
+	background-size: cover;
+}
+
+#thumb-geminids {
+	background-image: url("../assets/thumbs/thumb-geminids.jpg");
+	background-size: cover;
+}
+
+#thumb-mtvid {
+	background-image: url("../assets/thumbs/thumb-mtvid.jpg");
+	background-size: cover;
+}
+
+#thumb-rvsa {
+	background-image: url("../assets/thumbs/thumb-rvsa.jpg");
+	background-size: cover;
+}
+
+#thumb-hanginggardens {
+	background-image: url("../assets/thumbs/thumb-hanginggardens.jpg");
+	background-size: cover;
+}
+
+#thumb-doodlettesara {
+	background-image: url("../assets/thumbs/thumb-doodlettesara.jpg");
+	background-size: cover;
+}
+
+#thumb-roundriceball {
+	background-image: url("../assets/thumbs/thumb-roundriceball.jpg");
+	background-size: cover;
+}
+
+#thumb-photo-x-typography {
+	background-image: url("../assets/thumbs/thumb-photo-x-typography.jpg");
+	background-size: cover;
+}
+
+
 
 #header {
 	width: 331px;
@@ -125,9 +220,11 @@ body {
 }
 	
 #container {
-	width: 1030px;
+	padding: 0 5%;
+	width: 100%;
 	margin: 0px auto;
 	background-color: none;
+	margin-bottom: 100px;
 }
 
 #gallerydivider {

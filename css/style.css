@@ -66,6 +66,7 @@ a:hover {
 
 h1 {	
 	height: 331px;
+	display: block;
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
@@ -256,6 +257,6 @@ height: 481px;
 }
 
 .animated {
-    display: none;
+/*    display: none;*/
 }
 

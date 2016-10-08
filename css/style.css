@@ -112,6 +112,11 @@ body {
 	padding: 0;
 }
 
+#footertxt p {
+	color: #666;
+	margin-top: 30px;
+}
+
 /*flex*/
 
 .flex-container {

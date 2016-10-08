@@ -16,8 +16,6 @@
 
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 
-	<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
-	
 	<script>
 	
 	</script>
@@ -27,20 +25,19 @@
 <body>
 
 	<div id="bgright">&nbsp;</div>
-		
-	<div id="bgleft">&nbsp;</div>
 
 	<div id="pagewrap">
 	
 		<div id="container">
-				<div id="header"></div>
+
+			<div id="header"></div>
 			
 			<div id="portfolio">
 
 				<div id="flex" class="flex-container">
 
 					<div class="entry">
-						<a href="portfolio/business-card.html">
+						<a href="portfolio/business-card.php">
 							<div id="thumb-businesscard" class="thumb"></div>
 						</a>
 						<div class="entry-title">Sara de Souza Identity 2015</div>
@@ -49,7 +46,16 @@
 					</div>
 
 					<div class="entry">
-						<a href="portfolio/geminids.html">
+						<a href="portfolio/insurancebasics.php">
+							<div id="thumb-insurancebasics" class="thumb"></div>
+						</a>
+						<div class="entry-title">Insurance Basics by iMoney</div>
+						<div class="entry-subtitle">Video, Illustration, Animation</div>
+						
+					</div>
+
+					<div class="entry">
+						<a href="portfolio/geminids.php">
 							<div id="thumb-geminids" class="thumb"></div>
 						</a>
 						<div class="entry-title">Geminids Meteor Shower Infographic</div>
@@ -58,7 +64,7 @@
 					</div>
 
 					<div class="entry">
-						<a href="portfolio/mtvid.html">
+						<a href="portfolio/mtvid.php">
 							<div id="thumb-mtvid" class="thumb"></div>
 						</a>
 						<div class="entry-title">MTV - Dream</div>
@@ -67,7 +73,7 @@
 					</div>
 
 					<div class="entry">
-						<a href="portfolio/roger-vs-aliens.html">
+						<a href="portfolio/roger-vs-aliens.php">
 							<div id="thumb-rvsa" class="thumb"></div>
 						</a>
 						<div class="entry-title">Roger vs Aliens</div>
@@ -76,7 +82,7 @@
 					</div>
 
 					<div class="entry">
-						<a href="portfolio/hanging-gardens.html">
+						<a href="portfolio/hanging-gardens.php">
 							<div id="thumb-hanginggardens" class="thumb"></div>
 						</a>
 						<div class="entry-title">Hanging Gardens at Dusk</div>
@@ -85,7 +91,7 @@
 					</div>
 
 					<div class="entry">
-						<a href="portfolio/doodlettesara.html">
+						<a href="portfolio/doodlettesara.php">
 							<div id="thumb-doodlettesara" class="thumb"></div>
 						</a>
 						<div class="entry-title">Doodlette Sara</div>
@@ -94,7 +100,7 @@
 					</div>
 
 					<div class="entry">
-						<a href="portfolio/photo-x-typography.html">
+						<a href="portfolio/photo-x-typography.php">
 							<div id="thumb-photo-x-typography" class="thumb"></div>
 						</a>
 						<div class="entry-title">Photo X Typography Series</div>
@@ -103,7 +109,7 @@
 					</div>
 
 					<div class="entry">
-						<a href="portfolio/round-rice-ball.html">
+						<a href="portfolio/round-rice-ball.php">
 							<div id="thumb-roundriceball" class="thumb"></div>
 						</a>
 						<div class="entry-title">Round Riceball</div>
@@ -111,48 +117,14 @@
 						
 					</div>
 
-					<div class="entry">
-						<a href="portfolio/insurancebasics.html">
-							<div class="thumb"></div>
-						</a>
-						<div class="entry-title">iMoney Insurance</div>
-						<div class="entry-subtitle">Video, Illustration, Animation</div>
-						
-					</div>
-
-					
 				</div>
-				
 			</div>
 		</div>
-
-		<div id="divider"></div>
 			
-			
-			
-		<div id="footer">
-			<h2> About Me</h2>
-			<h6>Multimedia and Graphic designer<br>Selangor, Malaysia<br>Rabbit year, water goat month</h6>
-			<br>
-			<h4>Follow me!</h4>
-			<a href="https://www.behance.net/saradesouza" target="_blank"><img src="assets/socialmedia/behance.png"></a>
-			<a href="https://vimeo.com/saradesouza" target="_blank"><img src="assets/socialmedia/vimeo.png"></a>
-			<a href="https://my.linkedin.com/pub/sara-adam-de-souza/27/11a/56" target="_blank"><img src="assets/socialmedia/linkedin.png"></a>
-			<a href="mailto:saradesouza87@gmail.com"><img src="assets/socialmedia/email.png"></a>
-			<br><br>
-			<?php 
-			echo $_SERVER["DOCUMENT_ROOT"] ;
-			?>
-			<?php
-				include $_SERVER['DOCUMENT_ROOT']."/lib/footer.php";
-			?>
-
-			<!-- <p>V3.0 - Designed and developed by Sara de Souza &copy; 2016</p> -->
-		</div>
+		<?php include $_SERVER['DOCUMENT_ROOT']."/lib/footer.php"; ?><!--footer-->
 
 	</div>
 
 </body>
-
 
 </html>

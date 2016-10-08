@@ -98,7 +98,8 @@ h4 {
 	
 h6 {
 	font-family: "Karla", "Arial", sans-serif;
-	font-size: 0.7em;
+	font-size: 14px;
+	color: #666;
 }
 	
 p {
@@ -115,6 +116,7 @@ body {
 #footertxt p {
 	color: #666;
 	margin-top: 30px;
+	padding: 0 5%;
 }
 
 /*flex*/
@@ -189,46 +191,7 @@ body {
     color: #666;
 }
 
-/*THUMBNAILS*/
-#thumb-businesscard {
-	background-image: url("../assets/thumbs/thumb-businesscard.jpg");
-	background-size: cover;
-}
 
-#thumb-geminids {
-	background-image: url("../assets/thumbs/thumb-geminids.jpg");
-	background-size: cover;
-}
-
-#thumb-mtvid {
-	background-image: url("../assets/thumbs/thumb-mtvid.jpg");
-	background-size: cover;
-}
-
-#thumb-rvsa {
-	background-image: url("../assets/thumbs/thumb-rvsa.jpg");
-	background-size: cover;
-}
-
-#thumb-hanginggardens {
-	background-image: url("../assets/thumbs/thumb-hanginggardens.jpg");
-	background-size: cover;
-}
-
-#thumb-doodlettesara {
-	background-image: url("../assets/thumbs/thumb-doodlettesara.jpg");
-	background-size: cover;
-}
-
-#thumb-roundriceball {
-	background-image: url("../assets/thumbs/thumb-roundriceball.jpg");
-	background-size: cover;
-}
-
-#thumb-photo-x-typography {
-	background-image: url("../assets/thumbs/thumb-photo-x-typography.jpg");
-	background-size: cover;
-}
 
 #header {
 	max-width: 331px;
@@ -273,7 +236,7 @@ border: 5px solid #c7dee7;
 }
 
 #portfolioindividual {
-	margin-top: 50px;
+/*	margin-top: 50px;*/
 }
 
 #portfolioindividual img {
@@ -351,11 +314,22 @@ margin-bottom: 100px;
 text-align: center;
 }
 
+#portfoliocanvas img {
+	margin-bottom: 20px;
+	max-width: 100%;
+}
+
 #portfoliodescription {
 	width: 610px;
 	margin: 0 auto;
 	padding-bottom: 50px;
     color: #333;
+}
+
+#btn-container {
+	width: 250px;
+	margin: 0px auto;
+	padding-top: 50px;
 }
 
 .btn-index {
@@ -386,7 +360,7 @@ text-align: center;
 
 .responsive-video {
 position: relative;
-padding-bottom: 56.25%; /* 16/9 ratio */
+padding-bottom: 480px; /* 16/9 ratio */
 padding-top: 30px; /* IE6 workaround*/
 height: 0;
 overflow: hidden;
@@ -398,8 +372,9 @@ overflow: hidden;
 .responsive-video embed,
 .responsive-video p {
 position: relative;
-width: 600px;
-height: 481px;
+width: 100%;
+max-width: 600px;
+height: 480px;
 }
 
 
@@ -414,4 +389,51 @@ height: 481px;
 		margin: 0 auto;
 		padding-bottom: 50px;
 	}
+}
+
+
+/*THUMBNAILS*/
+#thumb-businesscard {
+	background-image: url("../assets/thumbs/thumb-businesscard.jpg");
+	background-size: cover;
+}
+
+#thumb-geminids {
+	background-image: url("../assets/thumbs/thumb-geminids.jpg");
+	background-size: cover;
+}
+
+#thumb-mtvid {
+	background-image: url("../assets/thumbs/thumb-mtvid.jpg");
+	background-size: cover;
+}
+
+#thumb-rvsa {
+	background-image: url("../assets/thumbs/thumb-rvsa.jpg");
+	background-size: cover;
+}
+
+#thumb-hanginggardens {
+	background-image: url("../assets/thumbs/thumb-hanginggardens.jpg");
+	background-size: cover;
+}
+
+#thumb-doodlettesara {
+	background-image: url("../assets/thumbs/thumb-doodlettesara.jpg");
+	background-size: cover;
+}
+
+#thumb-roundriceball {
+	background-image: url("../assets/thumbs/thumb-roundriceball.jpg");
+	background-size: cover;
+}
+
+#thumb-photo-x-typography {
+	background-image: url("../assets/thumbs/thumb-photo-x-typography.jpg");
+	background-size: cover;
+}
+
+#thumb-insurancebasics {
+	background-image: url("../assets/thumbs/thumb-insurancebasics.jpg");
+	background-size: cover;
 }

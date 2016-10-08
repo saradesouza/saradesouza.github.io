@@ -3,10 +3,22 @@
 <html>
 
 <head>
+
+	<link rel="icon" 
+      type="image/png" 
+      href="http://www.saradesouza.com/assets/favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<title>Sara de Souza's portfolio</title>
-	<link rel="stylesheet" href="../style.css">
+	
+
+
 	<link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" media="screen and (min-width: 101px) and (max-width: 800px)" href="../style-mobile.css" />
+	<link rel="stylesheet" media="screen and (min-width: 801px) and (max-width: 2000px)" href="../style.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	
 </head>
 
 <body>
@@ -19,13 +31,13 @@
 	
 		<div id="container">
 			<div id="header">
-				<h1><a href="../index.html">Sara de Souza's portfolio</a></h1>
+				<h1><a href="index.html">Sara de Souza's Portfolio</a></h1>
 			</div>
 			
 			<div id="portfolioindividual">
 				
 					<div id="portfoliocanvas">
-						<img src="../assets/portfolio/rvsa.jpg">
+						<img onload="fadeIn(this)" src="../assets/portfolio/rvsa.jpg">
 					</div>
 					<br>
 					<div id="portfoliodescription">
@@ -41,14 +53,17 @@
 					<img src="../assets/divider-600px.png">
 			</div>
 			
+			<div id="dividerportfolio">
+			</div>
+			
 			<div id="footer">
 				<h2> About Me</h2>
 				<h6>Multimedia and Graphic designer<br>Selangor, Malaysia<br>Rabbit year, water goat month</h6>
 				<br>
 				<h4>Follow me!</h4>
-				<a href="https://www.behance.net/saradesouza"><img src="../assets/socialmedia/behance.png"></a>
-				<a href="https://vimeo.com/saradesouza"><img src="../assets/socialmedia/vimeo.png"></a>
-				<a href="https://my.linkedin.com/pub/sara-adam-de-souza/27/11a/56"><img src="../assets/socialmedia/linkedin.png"></a>
+				<a href="https://www.behance.net/saradesouza" target="_blank"><img src="../assets/socialmedia/behance.png"></a>
+				<a href="https://vimeo.com/saradesouza" target="_blank"><img src="../assets/socialmedia/vimeo.png"></a>
+				<a href="https://my.linkedin.com/pub/sara-adam-de-souza/27/11a/56" target="_blank"><img src="../assets/socialmedia/linkedin.png"></a>
 				<a href="mailto:saradesouza87@gmail.com"><img src="../assets/socialmedia/email.png"></a>
 				<br>
 				<br>

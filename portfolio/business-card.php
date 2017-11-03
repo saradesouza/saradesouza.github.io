@@ -11,7 +11,8 @@
 
 				<div id="portfoliodescription">
 					<p>
-						<b>Description:</b> Business card, branding and web design. Logo is done with watercolour that was scanned in and isolated.
+						<!--<b>Description:</b><br>-->
+						Business card, branding and web design.<br>Logo is done with watercolour that was scanned in and isolated.
 					</p>
 				</div>
 

@@ -323,7 +323,8 @@ text-align: center;
 	width: 610px;
 	margin: 0 auto;
 	padding-bottom: 50px;
-    color: #333;
+    color: #666;
+    text-align: center;
 }
 
 #btn-container {

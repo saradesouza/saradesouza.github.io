@@ -11,8 +11,8 @@
 	<meta property="og:image" content="assets/header.png" />
 	<title>Sara de Souza's Portfolio</title>
 
-	<link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 

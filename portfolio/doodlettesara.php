@@ -10,7 +10,7 @@
 				</div>
 
 				<div id="portfoliodescription">
-					<p><b>Description:</b> I illustrate for and manage <a href="http://www.facebook.com/doodlettesara" target="_blank">Doodlette Sara,</a> a Facebook Page used to promote my illustrations/doodles.</p>
+					<p>I illustrate for and manage <a href="http://www.facebook.com/doodlettesara" target="_blank">Doodlette Sara,</a> a Facebook Page used to promote my illustrations/doodles.</p>
 				</div>
 
 <?php include $_SERVER['DOCUMENT_ROOT']."/lib/gallery-bottom.php"; ?>

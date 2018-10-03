@@ -4,4 +4,6 @@ $( document ).ready(function() {
 //     $(obj).fadeIn(1000);
 // 	}
 
+// document.write(new Date().getFullYear());
+
 });

@@ -73,8 +73,11 @@ h1 {
   margin: 0;
   margin-bottom: 24px;
 }
-h1 span {
+h1 .highlight {
   color: #08778F;
+}
+h1 .whitespace {
+  white-space: nowrap;
 }
 
 h2 {
@@ -168,7 +171,7 @@ body {
   width: 100%;
   background-image: url("../img/sara-comicfied-compressed.png");
   background-repeat: no-repeat;
-  background-position: bottom -200px right -150px;
+  background-position: bottom -200px right -120px;
 }
 #container-hero-bg #container-hero {
   max-width: 1216px;
@@ -198,9 +201,32 @@ body {
     margin: 0 auto;
   }
 }
-@media (min-width: 320px) and (max-width: 670px) {
+@media (min-width: 426px) and (max-width: 670px) {
   #container-hero-bg {
     background-position: bottom -20px center;
+    background-size: 500px;
+  }
+  #container-hero-bg #hero-txt {
+    text-align: center;
+    margin: 0 auto;
+  }
+  #container-hero-bg #hero-txt h1 {
+    line-height: 40px;
+    font-size: 34px;
+  }
+  #container-hero-bg #hero-txt h2 {
+    margin-bottom: 12px;
+  }
+  #container-hero-bg #hero-txt .button {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 4px;
+    width: 80%;
+  }
+}
+@media (max-width: 425px) {
+  #container-hero-bg {
+    background-position: bottom -120px center;
     background-size: 500px;
   }
   #container-hero-bg #hero-txt {

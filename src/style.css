@@ -87,7 +87,8 @@ h2 {
   font-style: normal;
   font-size: 16px;
   line-height: 18px;
-  color: #BDBDBD;
+  color: #737373;
+  margin-bottom: 12px;
 }
 
 body {
@@ -190,6 +191,9 @@ body {
     text-align: center;
     margin: 0 auto;
   }
+  #container-hero-bg #hero-txt h2 {
+    margin-bottom: 24px;
+  }
 }
 @media (min-width: 671px) and (max-width: 767px) {
   #container-hero-bg {
@@ -199,6 +203,9 @@ body {
   #container-hero-bg #hero-txt {
     text-align: center;
     margin: 0 auto;
+  }
+  #container-hero-bg #hero-txt h2 {
+    margin-bottom: 24px;
   }
 }
 @media (min-width: 426px) and (max-width: 670px) {
@@ -215,7 +222,7 @@ body {
     font-size: 34px;
   }
   #container-hero-bg #hero-txt h2 {
-    margin-bottom: 12px;
+    margin-bottom: 24px;
   }
   #container-hero-bg #hero-txt .button {
     font-size: 16px;
@@ -238,7 +245,7 @@ body {
     font-size: 34px;
   }
   #container-hero-bg #hero-txt h2 {
-    margin-bottom: 12px;
+    margin-bottom: 24px;
   }
   #container-hero-bg #hero-txt .button {
     font-size: 16px;
@@ -270,10 +277,13 @@ body {
 #container-about #about-img {
   background-image: url("../img/about-unsplash.jpg");
   background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 @media screen and (max-width: 1024px) {
   #container-about {
     flex-direction: column;
+    height: 1000px;
   }
 }
 @media screen and (max-width: 767px) {
